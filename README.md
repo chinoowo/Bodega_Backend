@@ -1,8 +1,24 @@
 # Bodega_Backend
 Backend del repositorio bodenga para integrar
-Tener instalado el jdk 17 de java para INTELIJ IDEA
 Visual studio code para visualizar front end
+
+
+Tener instalado el jdk 17 de java para INTELIJ IDEA
+
+instalar xampp para levantar el front end:
+ir a la carpeta donde se instalo xampp
+llevar la carpeta del front-end a la carpeta llamada htdocs generada por defecto al instalar xampp
+
+
 Base de datos en mySqlWorkbench 
+en el apartado de aplication properties Cambiar pasword de mySqlWorkbench al password personal
+
+
+
+
+
+
+
 Scritpt para base de datos
 ------------------------------------------------------------------------------------------
 INSERT INTO tbl_product VALUES (1,"LTD-4943","Guitarra cuerpo solido","Guitarras","100");
