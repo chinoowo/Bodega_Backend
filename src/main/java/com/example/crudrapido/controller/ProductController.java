@@ -4,6 +4,7 @@ import com.example.crudrapido.entity.Product;
 import com.example.crudrapido.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
 
 
 import java.util.List;
@@ -18,6 +19,11 @@ public class ProductController {
 
     @Autowired
     private ProductService productService;
+
+    @Autowired
+    public ProductController(RestTemplate restTemplate) {
+        this.restTemplate = restTemplate;
+    }
 
     //Obtener datos de la lista
     @GetMapping()
@@ -47,6 +53,21 @@ public class ProductController {
     public void saveUpdate(@PathVariable("productId") Long productId){
         productService.delete(productId);
     }
+
+
+
+
+
+    private final RestTemplate restTemplate;
+    @GetMapping("/api")
+    public Object getApi(){
+        String url = "https://musicpro.bemtorres.win/api/v1/test/saldo";
+        Object forObject = restTemplate.getForObject(url, Object.class);
+        return forObject;
+
+    }
+
+
 }
 
 
