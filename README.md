@@ -1,22 +1,32 @@
 # Bodega_Backend
-Backend del repositorio bodenga para integrar
-Visual studio code para visualizar front end
+
+Backend del repositorio bodega para integrar
+Antes de:
+instalar Visual studio code para visualizar front end
+Instalar intelijIDEA para sistema operativo propio
+Instalar xampp para levantar front-end
+instalar mysqlWorckbench para base de datos
 
 
-Tener instalado el jdk 17 de java para INTELIJ IDEA
 
-instalar xampp para levantar el front end:
+
+1.instalar el jdk 17 de java para INTELIJ IDEA desde el programa y abrir la carpeta de Bodega_Backend
+
+
+
+2.al tener instalado xampp para levantar el front end:
 ir a la carpeta donde se instalo xampp
-llevar la carpeta del front-end a la carpeta llamada htdocs generada por defecto al instalar xampp
+llevar la carpeta del front-end(repositorio llamado Bodega) a la carpeta llamada htdocs generada por defecto al instalar xampp
 
 
-Base de datos en mySqlWorkbench 
-en el apartado de aplication properties Cambiar pasword de mySqlWorkbench al password personal
-
-
+3.Base de datos en mySqlWorkbench:
+Despues de tener instalado y configurado el servidor mySqlWorkbench con la contraseña propia, Cambiar apartado de aplication properties el pasword de mySqlWorkbench al password elegido en mySqlWorkbench
 
 
 
+4.una vez iniciado el local host en intelij spring boot ejecutar lo siguiente en mySqlWorkbench para visualizar los datos:
+
+Ejecutar este script en mysqlWorkbench al iniciar la api con spring boot
 
 
 Scritpt para base de datos
