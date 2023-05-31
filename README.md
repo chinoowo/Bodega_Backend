@@ -64,4 +64,8 @@ iniciar el servicio de apache de xampp, ingresar al admin y saldra este link: ht
 Debe cambiar la ruta para orientarla hacia la carpeta del repositorio bodega por ejemplo: http://localhost/Bodega/login.html#, ya que al dejar la carpeta dentro de htdocs, xampp reconocera la carpeta dentro del servidor
 asi deberian quedar las rutas para levantar el front end en xampp. Si se realizaron correctamente los pasosa anteriores el front-end deberia mostrar los datos traidos desde localhost:8080 hacia el localhost levantado con xampp
 
+7.para logearse una vez levantado el programa:
+bodega@musicpro.cl
+123456
+
 
